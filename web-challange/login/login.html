@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Login</title>
-  </head>
-  <body>
-    <header>
-      <div>
-        <img src="../img/MicrosoftTeams-image (3).png" alt="logo-team" />
-      </div>
-    </header>
-    <h1 class="page-name">Login</h1>
-    <p class="page-text">
-      A página para o Login do usuário será composta por: Login e Senha -
-      Esqueci minha senha - Criar um cadastro Assim, caso o usuário não possua
-      cadastro ele pode ser rapidamente redirecionado para realizar
-    </p>
-    <div class="btns">
-      <button class="btn"><a href="../index.html">Página Inicial</a></button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="../img/loginho.png">
     </div>
-  </body>
+    <h2>Login</h2>
+    <form action="login.html" method="post">
+      <div class="input-field">
+        <input type="text" id="email" placeholder="Digite se e-mail">
+        <label for="email">E-mail</label>
+      </div>
+      <div class="input-field">
+        <input type="password" id="senha" placeholder="Digite sua senha">
+        <label for="senha">Senha</label>
+      </div>
+      <div class="center">
+        <button>Entrar</button>
+      </div>
+    </form>
+    <div class="links">
+      <a href="..">
+        <p>Esqueceu sua senha?</p>
+      </a>
+      <a href="..">
+        <p>Ainda não sou cadastrado</p>
+      </a>
+    </div>
+  </div>
+</body>
+
 </html>
