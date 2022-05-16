@@ -24,6 +24,7 @@ h2 {
 }
 
 .container {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   width: 400px;
   background: rgba(29, 28, 28, 0.527);
