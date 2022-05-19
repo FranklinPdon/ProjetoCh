@@ -73,7 +73,7 @@ header {
   letter-spacing: 10px;
   font-weight: 300;
   animation: container-appear 1s ease-out forwards;
-  color: #ccc;
+  color: rgba(204, 204, 204, 0.315);
 }
 
 @keyframes container-appear {
