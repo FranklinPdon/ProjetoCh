@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300;400;700&display=swap');
+
 
 * {
   margin: 0 auto;
@@ -87,7 +89,7 @@ header {
 
   100% {
     opacity: 1;
-    transform: translateY(-30rem);
+    transform: translateY(-17rem);
   }
 }
 
@@ -97,4 +99,16 @@ nav ul li a {
 
 nav ul {
   list-style: none;
+}
+
+/* Relogio */
+.digital {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  color: #17D4FE;
+  font-size: 30px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  z-index: 1;
 }
