@@ -1,74 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
   background-image: url(../img/fundocomputador.jpg);
   background-size: cover;
+  display: table;
 }
 
-img {
-  padding: 40px;
-  margin: 10px auto;
-  display: block;
-  width: 20%;
-  height: auto;
-}
-
-.page-name {
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 10px;
-  font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  box-shadow: 0px 0px 5px rgba(202, 200, 200, 0.749);
-  width: 48%;
+.logo {
   text-align: center;
-  margin-top: 40px;
-  font-size: 25px;
-  color: rgb(252, 249, 249);
 }
 
-.page-text {
+.titulo {
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 10px;
-  width: 50%;
-  border: solid rgb(41, 39, 39);
-  text-align: justify;
-  font-size: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  color: rgb(248, 245, 245);
+  color: white;
+  padding: 30px;
 }
 
-.btns {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.j1 {
+  text-align: center;
 }
 
-.btn {
-  padding: 15px;
-  box-shadow: 0px 2px 3px rgba(29, 28, 28, 0.749);
-  color: rgb(224, 220, 220);
-  background-color: #929290;
-  font-weight: bold;
-  border-radius: 10PX;
+.nav {
+  height: 70px;
+  box-shadow: 1px 2px 10px black, 3px 6px 20px black;
 }
 
-.btn:hover {
-  box-shadow: 0px 4px 23px rgba(141, 138, 138, 0.9);
-  background-color: #f5ab3d;
-  ;
+ul {
+  margin: 10px auto;
+  width: 800px;
+  list-style: none;
+  background: rgba(54, 54, 54, 0.2);
 }
 
-.btn:not(:last-child) {
-  margin-right: 60px;
+li {
+  margin-top: 26px;
+  display: inline-block;
 }
 
-a {
+li a {
   text-decoration: none;
-  color: rgb(37, 36, 36);
-  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  transition: 1s;
+  padding: 25px 30px;
+}
+
+li a:hover {
+  transition: 1s;
+  background: rgb(255, 94, 0);
+
+}
+
+
+button {
+  padding: 10px 30px;
+  margin: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 20px;
   cursor: pointer;
+  transition: ease-in-out .27s;
+}
+
+button:hover {
+  background: #f03d06c0;
+}
+
+.center {
+  text-align: center;
 }
