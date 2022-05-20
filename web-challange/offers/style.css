@@ -74,6 +74,8 @@ h2 {
 }
 
 button {
+  position: relative;
+  top: 100px;
   padding: 10px 40px;
   margin: 20px;
   background: transparent;
