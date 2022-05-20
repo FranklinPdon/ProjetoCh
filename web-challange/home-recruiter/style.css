@@ -17,6 +17,11 @@ header {
   background-color: rgba(15, 14, 14, 0.438)
 }
 
+.logo {
+  position: relative;
+  top: 15px;
+}
+
 .menu-content {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
@@ -35,6 +40,8 @@ header {
 }
 
 .menu-content .list-itens a {
+  position: relative;
+  top: 15px;
   text-decoration: none;
   color: rgb(167, 163, 163);
   font-size: 15px;
@@ -84,6 +91,8 @@ main {
 
 
 button {
+  position: relative;
+  top: 60px;
   padding: 10px 30px;
   margin: 20px;
   background: transparent;
